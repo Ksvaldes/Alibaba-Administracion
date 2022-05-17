@@ -1,0 +1,79 @@
+.login{
+    width: 1000px;
+    height: 600px;
+    background-image: url(https://i.postimg.cc/Rh2w2yr1/image-4.jpg);
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 3.8%;
+    box-shadow:4px 3px 18px 2px #57575c;
+    -moz-box-shadow:4px 3px 18px 2px #57575c;
+    -webkit-box-shadow:4px 3px 18px 2px #57575c;
+}
+
+.form{
+    padding-bottom: 35px;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+.FraseInicial{
+    margin-bottom: 55px;
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 3px;
+}
+.usuario, .contraseña{
+
+    
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+label, .boton{
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--Texto);
+}
+
+input{
+padding: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.imagen{
+    margin-top: 2px;
+    width: 500px;
+    height: 601px;
+}
+
+.boton{
+    background-color: rgb(197, 161, 60);
+    padding: 10px;
+    width: 300px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 13px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+.boton:hover{
+    
+    background-color: rgb(198, 157, 118);
+    transition: 0.3s;
+    
+}

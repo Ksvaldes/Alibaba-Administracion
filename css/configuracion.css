@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body{
+    background-color: #e4e4e4;
+    
+}
+:root{
+
+    --Texto: 15px;
+}
+
+.activar-block {
+    display: block;
+}
+.activar-flex {
+    display: flex;
+}
+
+.desactivar {
+    display: none;
+}

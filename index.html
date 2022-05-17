@@ -1,12 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Ksvaldes</title>
+
+    <!-- FUENTES -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+
+    <!--CSS -->
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/administrador.css">
+    <link rel="stylesheet" href="./css/configuracion.css">
+
 </head>
 <body>
+
+    <!--INICIO DE PROGRAMACIÓN-->
+
+    <div class="login activar-flex" id="ParaElLogin">
+        <div class="form">
+            <h2 class="FraseInicial"><b>WELCOME BACK</b></h2>
+
+        <!-- FORMULARIO -->
+        <form class="formLogin" action="" id="login" autocomplete="off">
+            <label  for="">
+                <b>Username:</b> <br>
+                <input class="usuario" type="texto" id="username">
+            </label>
+            <br>
+            <label for="">
+                <b>Password:</b> <br>
+                <input class="contraseña" type="password" id="password">
+            </label>
+            <button class="boton">Entrar</button>
+        </form>
+        </div>
+        <div class="Img">
+            <img class="imagen" src="https://i.postimg.cc/fWPrKP9b/portrait-of-asian-young-woman-sme-working-with-a-box-at-home-the-workplace-start-up-small-business-o.jpg" alt="">
+         </div>
+
+    </div>
     
+    <!--ADMINISTRADOR-->
+    <section class="admin" id="administracion">
+        <div class="menu" >
+            <div class="espacio" ></div>
+            <div class="opciones" >
+
+                <div class="cajita">
+                <div class="op"><a href=""></a>Nosotros</div>
+                <div class="op"><a href=""></a>Curiosidades</div>
+                <div class="op"><a href=""></a>Ayuda</div>
+                </div>
+            </div>
+
+        </div>
+        <img src="https://i.postimg.cc/XNcSfDKZ/Dise-o-sin-t-tulo-2.jpg" alt="">
+    </section>
+
+    <!--ARCHIVOS DE PROGRAMACIÓN-->
+    <script src="./js/Main.js" type="module"></script>
 </body>
 </html>
+
+
