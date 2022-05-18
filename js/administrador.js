@@ -1,4 +1,3 @@
-/* Elementos del dom */
 import {administracion, ParaElLogin} from './login.js';
 
 export function adminstrador(){
