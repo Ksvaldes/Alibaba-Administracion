@@ -67,7 +67,6 @@ img{
     justify-content: center;
     font-size: 30px;
     position: absolute;
-    background-color: aqua;
 
 }
 .textos{
@@ -89,39 +88,42 @@ img{
     margin-top: 20px;
     font-family: 'Comic Neue', cursive;
 }
+/*boton*/
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: inherit;
   }
   
-  .botonTienda {
+  .cta {
     position: relative;
     margin: auto;
-    padding: 10px 22px;
-    margin-top: 500px;
+    padding: 19px 22px;
     transition: all 0.2s ease;
   }
-  .botonTienda:before {
+  .cta:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     display: block;
     border-radius: 28px;
-    width: 56px;
-    height: 56px;
+    margin-top: 20px;
+    width: 40px;
+    height: 45px;
     transition: all 0.3s ease;
   }
-  .botonTienda span {
+  .cta span {
     position: relative;
     font-size: 16px;
+    text-align: center;
     line-height: 18px;
+    padding-left: 40px;
     font-weight: 900;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     vertical-align: middle;
   }
-  .botonTienda svg {
+  .cta svg {
     position: relative;
     top: 0;
     margin-left: 10px;
@@ -133,19 +135,13 @@ a {
     transform: translateX(-5px);
     transition: all 0.3s ease;
   }
-  .botonTienda:hover:before {
+  .cta:hover:before {
     width: 100%;
-    background: #fab4a7;
+    background: #ffab9d;
   }
-  .botonTienda:hover svg {
+  .cta:hover svg {
     transform: translateX(0);
   }
-  .botonTienda:active {
+  .cta:active {
     transform: scale(0.96);
   }
-
- 
-
- 
-
-
